@@ -1,0 +1,2 @@
+
+CREATE TABLE temps (datestamp DATE, timestamp TIME, location TEXT, temp NUMERIC, humidity NUMERIC);
