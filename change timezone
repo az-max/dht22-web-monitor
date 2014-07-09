@@ -1,0 +1,7 @@
+    curs.execute("SELECT time(timestamp,'localtime'),max(temp) FROM temps WHERE$
+    rowmax=curs.fetchone()
+    rowstrmax="{0}&nbsp&nbsp&nbsp{1}F".format(str(rowmax[0]),str(rowmax[1]))
+
+    curs.execute("SELECT time(timestamp,'localtime'),min(temp) FROM temps WHERE$
+    rowmin=curs.fetchone()
+    rowstrmin="{0}&nbsp&nbsp&nbsp{1}F".format(str(rowmin[0]),str(rowmin[1]))
